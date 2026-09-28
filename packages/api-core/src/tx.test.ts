@@ -208,7 +208,6 @@ describe("handleWithdrawRequest", () => {
   });
 });
 
-
 describe("trustline pre-validation", () => {
   it("returns 400 for deposit when USDC trustline is missing", async () => {
     vi.mocked(assertRequiredTrustlines).mockRejectedValueOnce(

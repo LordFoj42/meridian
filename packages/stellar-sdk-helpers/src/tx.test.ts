@@ -355,7 +355,6 @@ function makeBalance(
   } as unknown as Horizon.HorizonApi.BalanceLine;
 }
 
-
 describe("assertRequiredTrustlines", () => {
   afterEach(() => vi.restoreAllMocks());
 
